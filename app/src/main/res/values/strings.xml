@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WMS</string>
+    <string name="nfc_fail">try again</string>
+    <string name="message_nfc_tag_add_success">message nfc tag add success</string>
+
+
+    <string-array name="ic_reason">
+        <item>Product is missing</item>
+        <item>Damage product</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="categoty_item">
+        <item>Appliances</item>
+        <item>Electronics</item>
+        <item>Vehicles</item>
+        <item>Furniture</item>
+        <item>Office Products</item>
+        <item>Sports</item>
+        <item>Toys</item>
+        <item>Books</item>
+        <item>Clothing,shoes,jewelry</item>
+        <item>Home and Kitchen</item>
+        <item>Industrial and Scientific</item>
+        <item>Tools and Home improvement</item>
+        <item>Computer&amp;Accessories</item>
+        <item>Grocery and Gourmet foods</item>
+        <item>Other</item>
+    </string-array>
+
+
+
+
+
+</resources>

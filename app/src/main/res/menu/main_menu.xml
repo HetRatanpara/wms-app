@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<!-- item for our search view with its id -->
+    <item
+    android:id="@+id/actionSearch"
+    android:icon="@android:drawable/ic_menu_search"
+    android:title="Search"
+    app:actionViewClass="android.widget.SearchView"
+    app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/qr_code"
+        android:title="QR Code / Barcode"
+        />
+
+    <item
+        android:id="@+id/nfc_tag"
+        android:title="NFC"
+        />
+
+
+</menu>
